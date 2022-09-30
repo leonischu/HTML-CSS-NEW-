@@ -1,0 +1,30 @@
+h2:hover{
+    color: red;
+
+}
+.sub{
+    color: blue;
+}
+/* li:only-child{
+    color:purple;
+} */
+/* #google:link{
+color: blue;
+
+}
+#google:visited{
+color:red;
+}  */
+h2 + a{
+    color: red;
+}
+
+textarea ~ button{
+    color: purple;
+}
+ul>li{
+    color:blue;
+}
+/* ul li {
+    color:green;
+} */ 
