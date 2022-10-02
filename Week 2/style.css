@@ -1,8 +1,8 @@
-h2:hover{
+/* h2:hover{
     color: red;
 
 }
-.sub{
+h2[class=sub]{
     color: blue;
 }
 /* li:only-child{
@@ -15,7 +15,7 @@ color: blue;
 #google:visited{
 color:red;
 }  */
-h2 + a{
+/* h2 + a{
     color: red;
 }
 
@@ -24,7 +24,23 @@ textarea ~ button{
 }
 ul>li{
     color:blue;
-}
+} */
 /* ul li {
     color:green;
 } */ 
+/* img[src="201423"] */ 
+body{
+    background: rgba(204, 229, 255,0.4);
+}
+
+#title{
+    color: rgb(161, 115, 9);
+}
+.sub{
+    color: rgb(152, 110, 12);
+}
+#services{
+    height: auto;
+    width: auto;
+    background:linear-gradient(red 20%,blue 40%,green 55%);
+}
