@@ -31,16 +31,33 @@ ul>li{
 /* img[src="201423"] */ 
 body{
     background: rgba(204, 229, 255,0.4);
+    font-size:1.15em;
+
+    /* text-transform: uppercase; */
+    text-align: justify;
+    font-family: sans-serif;
+
 }
 
 #title{
     color: rgb(161, 115, 9);
+font-weight: 400;
 }
 .sub{
     color: rgb(152, 110, 12);
 }
-#services{
-    height: auto;
-    width: auto;
-    background:linear-gradient(red 20%,blue 40%,green 55%);
+#service-image{
+    height: 400px;
+    width: 70%;
+    background:radial-gradient(circle,red 20%,blue 40%,green 55%);
+border: 10px solid black;
+.link{
+    text-decoration:underline;
+}
+.italic{
+    font-style: italic;
+}
+#aboutus{
+    height: 300 px;
+    width: 60%;
 }
