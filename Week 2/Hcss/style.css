@@ -1,0 +1,84 @@
+img{
+    height: 200px;
+    width: 200px;
+     
+}
+#main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 50px;
+}
+p{
+    font-family: sans-serif;
+}
+li{
+    font-family: sans-serif;
+}
+h1{
+
+font-family: 'Roboto Condensed',sans-serif;
+}
+h2{
+    font-family: 'Roboto Condensed',sans-serif;
+}
+.image-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-grid>img{
+    margin: 10px;
+}
+#image-1{
+    float: right;
+    margin: 10px;
+}
+.post{
+    border: 10px solid rgb(70,133,244);
+}
+.post-title{
+    margin-left: 5px;
+}
+.post-text{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+body{
+    background: lightblue;
+}
+.sidebar{
+    background: lightpink;
+}
+.post>a{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-family: lato;
+    transition:0.5s color ;
+
+}
+.post>a:hover{
+    color: red;
+}
+img:hover{
+    height: 250px;
+    height: 500px;
+    transition: 0.5s, height , width;
+}
+.content{
+    animation-name: fade-in ;
+    animation-duration: 2s;
+}
+.sidebar{
+    animation-name: fade-in ;
+    animation-duration: 2s;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
