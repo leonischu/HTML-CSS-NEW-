@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple card</title>
+  </head>
+  <style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f2f2f2;
+        font-family: 'Poppins', sans-serif;
+ 
+    }
+    .align-center{
+        margin: 130px auto;
+        width: 15%;
+
+
+    }
+    .card{
+        width: 300px;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        height: fit-content;
+        padding: 5px 20px;
+        box-shadow:  2px 3px 3px 4px gray;
+    }
+    .card>img{
+        width: 100%;
+        height:220px;
+    }
+    .card>h3{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .card-down{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+        padding: 0px 20px;
+    }
+    .card-down>p{
+        background-color: chartreuse;
+        border-radius: 20px ;
+        padding: 8px 20px;
+    }
+    
+  </style>
+  <body>
+    <div class="align-center">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRoz4pL49ctFG4pF59qivt8yRZFT5d0dVa2g&usqp=CAU"         alt=""
+  />
+        <h3>T-shirt</h3>
+        <div class="card-down"><h2>$12</h1>
+        <p>View Details</p></div>
+      </div>
+    </div>
+  </body>
+</html>
