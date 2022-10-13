@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 60%;
+    margin: 5px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background: #dddbdb;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.brand-name{
+    padding-left: 30px;
+    font-size: 30px;
+    position: relative;
+}
+nav ul{
+display: flex;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 9px    20px;
+    font-size: 16px;
+    /* margin-left: 10px; */
+    margin-right: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 1px 1px 2px 2px black;
+    border-radius: 8px;
+}
