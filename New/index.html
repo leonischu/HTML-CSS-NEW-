@@ -2,11 +2,16 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,7 +20,12 @@
   </head>
   <body>
     <nav>
-      <div class="toggle"></div>
+      <div class="toggle">
+        <p class="mobilehead">Leonischu</p>
+        <div class="menu">
+          <i class="fa fa-bars" arie-hidden="true"></i>
+        </div>
+      </div>
       <div class="header">
         <div>
           <h1 class="brand-name">Leonischu</h1>
@@ -30,4 +40,12 @@
       </div>
     </nav>
   </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script>
+    $(document).ready(function()){$(.menu).click(function()){
+      $('ul').toggleClass("active")
+    }
+
+    }
+  </script>
 </html>
