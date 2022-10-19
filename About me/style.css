@@ -1,0 +1,39 @@
+/* font-family: 'Poppins', sans-serif; */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.about{
+    width: 70%;
+    margin: 10% auto;
+}
+.about-inner{
+    background-color: rgb(51,51,51);
+    border-radius: 20px;
+    padding:50px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-inner .about-img{
+    width: 40%;   
+
+}
+.about .about-inner .about-info{
+    padding-left: 100px;
+    width:60%;
+    text-align: justify;
+}
+.about .about-inner .about-info .about-info-heading{
+    font-size: 60px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.about .about-info .about-info-desc{
+    font-size: 18px;
+}
