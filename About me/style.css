@@ -20,9 +20,14 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.about .about-inner .about-img{
-    width: 40%;   
 
+
+.about .about-inner .about-image{
+    /* width: 40%;    */
+
+}
+.about .about-inner .about-image:hover{
+    box-shadow: 1px 2px 3px 5px black;
 }
 .about .about-inner .about-info{
     padding-left: 100px;
@@ -36,4 +41,45 @@ body{
 }
 .about .about-info .about-info-desc{
     font-size: 18px;
+}
+.about .about-info button{
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    font-size: 18px;
+    margin-top: 20px;
+    outline: none;
+    border:none;
+    border-radius: 10px;
+}
+.about .about-info button:hover{
+    color: white;
+    background-color: #1d1d1d;
+
+}
+@media only screen and(max-width:768px){
+    .about{
+        width:90%;
+        margin:auto;
+
+    }
+    .about .about-inner{
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    .about .about-image .about-info-heading{
+        font-size: 40px;
+    }
+    .about .about-info button{
+        padding:7px 16px;
+
+    }
+    .about .about-image{
+        width: 90%;
+        margin:auto;
+    }
+    .about .about-image img{
+        height:300px;
+        
+    }
 }
