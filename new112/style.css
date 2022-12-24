@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,900;1,900&display=swap');
+body{
+  
+    margin-left: 250px;
+    padding:0px;
+    background: lightblue;
+
+}
+.A{
+    border:50px solid green;
+    padding:25px 25px 96px 65px;
+    margin: 10px 50px 100px 50px;
+    height: 400px;
+    width: 600px;
+}
+.B{
+    border:50px solid black;
+    padding:7px 120px 85px 240px;
+    width: 100px;
+    height: 250px;
+    margin-top: 10px;
+} 
+.C{
+    /* text-align: center; */
+    padding: 30px 65px 75px 120px;
+    margin-right: 300px;
+     margin: 10px 205px 50px -200px ;
+    border:50px solid red;
+    /* box-sizing: border-box; */
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.leo{
+  
+    height: 90px;
+    width: 91px;
+    margin: -241px 243px 66px -100px;
+}
