@@ -8,24 +8,24 @@ body{
 }
 .A{
     border:50px solid green;
-    padding:25px 25px 96px 65px;
+    padding:40px 25px 65px 85px;
     margin: 10px 50px 100px 50px;
     height: 400px;
     width: 600px;
 }
 .B{
-    border:50px solid black;
-    padding:7px 120px 85px 240px;
+    border:30px dashed black;
+    padding: 35px 133px 73px 280px;
     width: 100px;
     height: 250px;
     margin-top: 10px;
 } 
 .C{
     /* text-align: center; */
-    padding: 30px 65px 75px 120px;
+    padding: 20px 85px 75px 120px;
     margin-right: 300px;
      margin: 10px 205px 50px -200px ;
-    border:50px solid red;
+    border:30px double red;
     /* box-sizing: border-box; */
     width: 100px;
     height: 100px;

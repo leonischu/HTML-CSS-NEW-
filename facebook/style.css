@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+}
+.h1{
+    color:  #1877f2;
+    font-size: 30px;
+}
+.p{
+    font-size: 24px;
+    padding: 0 0  20px;
+    
+}
+.first{
+    margin-top: 30%;
+    width: auto;
+    padding-left: 200px;
+}
+.nicard{
+    text-align: center;
+    margin-top: 130px;
+    display: block;
+
+    background: #fff;
+    width: auto;
+    margin-right: 200px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px  ;
+}
+input[type="email" ] {
+    padding: 14px 16px;
+    box-sizing: content-box;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+   
+}
+input[type="password" ] {
+    padding: 14px 16px;
+    margin: 10px ;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    
+}
+.nn-log{
+    padding: 16px 150px;
+    margin: 10px ;
+    background-color: #1877f2;
+    color: #ffffff;  
+    font-size: 20px; 
+    border-radius: 5px;
+    border: 1px solid #1877f2;
+    cursor: pointer;
+
+}
+.nn-cn{
+    background: #42b72a;
+    /* font-size: 10px; */
+    display: inline-block;
+    padding: 0px;
+    color: #ffffff;
+    margin-top: 10px;
+    border-radius: 5px;    
+    box-sizing: content-box;
+    border: 1px solid #42b72a;
+    cursor: pointer;
+    text-decoration: none;
+
+    
+}
+.nipc{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+ 
+}
+.nie{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+.nn-cn{
+   
+    font-size:17px;
+    padding: 14px 16px;
+    width: 180px;
+}
+
+.forget{
+margin:0px 16px;
+text-decoration: none;
+}
+
+.hr{
+    margin-top: 10px;
+    padding: 15px;
+}
+.nn-cr{
+    padding: 0px 0px 2px;
+}
+.f{
+    text-decoration: none;
+}
+.email{
+    padding: 6px 0px;
+}
+.nnp{
+    padding: 35px;
+}
